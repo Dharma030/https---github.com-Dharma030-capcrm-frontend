@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = process.env.REACT_APP_CRM_BACKEND_URL;
+const BASE_URL = "https://crm-app-dlt0.onrender.com";
 
 export async function getAllTickets(data) {
   return axios.get(`${BASE_URL}/crm/api/v1/tickets`, {
