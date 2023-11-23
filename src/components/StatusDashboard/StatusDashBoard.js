@@ -2,7 +2,6 @@ import React from "react";
 import StatusCard from "./StatusCard";
 
 const StatusDashBoard = ({ ticketLength, statsData }) => {
-  const userType = localStorage.getItem("userType");
   const userName = localStorage.getItem("name");
   
   return (
