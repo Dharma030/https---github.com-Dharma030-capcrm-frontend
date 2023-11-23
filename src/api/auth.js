@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.REACT_APP_CRM_BACKEND_URL;
+const BASE_URL = "https://crm-app-dlt0.onrender.com";
 console.log(BASE_URL); // Log the value
 
 export async function userSignUp(data) {
