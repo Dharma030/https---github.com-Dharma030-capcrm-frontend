@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = "https://crm-app-dlt0.onrender.com";
+const BASE_URL = "https://my-crm-app.onrender.com";
 console.log(BASE_URL); // Log the value
 
 export async function userSignUp(data) {

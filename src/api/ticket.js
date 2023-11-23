@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://crm-app-dlt0.onrender.com";
+const BASE_URL = "https://my-crm-app.onrender.com";
 
 export async function getAllTickets(data) {
   return axios.get(`${BASE_URL}/crm/api/v1/tickets`, {
